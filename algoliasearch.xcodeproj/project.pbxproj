@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5833F51CAD5BA9AB3E57D69E /* Pods_algoliasearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C68E3ECDD6CBA607CC720C /* Pods_algoliasearch.framework */; };
+		8517AED22371AB820042A453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517AED12371AB820042A453 /* AppDelegate.swift */; };
+		8517AED42371AB820042A453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517AED32371AB820042A453 /* ViewController.swift */; };
+		8517AED72371AB820042A453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8517AED52371AB820042A453 /* Main.storyboard */; };
+		8517AED92371AB840042A453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8517AED82371AB840042A453 /* Assets.xcassets */; };
+		8517AEDC2371AB840042A453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8517AEDA2371AB840042A453 /* LaunchScreen.storyboard */; };
+		8517AEE62371B1BB0042A453 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8517AEE52371B1BB0042A453 /* DemoViewController.m */; };
+		8517AEE92371B7740042A453 /* HZNPodSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8517AEE82371B7740042A453 /* HZNPodSearchManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4959C9376A4565E8EBB879 /* Pods-algoliasearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algoliasearch.release.xcconfig"; path = "Target Support Files/Pods-algoliasearch/Pods-algoliasearch.release.xcconfig"; sourceTree = "<group>"; };
+		57C68E3ECDD6CBA607CC720C /* Pods_algoliasearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_algoliasearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8517AECE2371AB820042A453 /* algoliasearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algoliasearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8517AED12371AB820042A453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8517AED32371AB820042A453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8517AED62371AB820042A453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8517AED82371AB840042A453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8517AEDB2371AB840042A453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8517AEDD2371AB840042A453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8517AEE32371B1BB0042A453 /* algoliasearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algoliasearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		8517AEE42371B1BB0042A453 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		8517AEE52371B1BB0042A453 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		8517AEE72371B7740042A453 /* HZNPodSearchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZNPodSearchManager.h; sourceTree = "<group>"; };
+		8517AEE82371B7740042A453 /* HZNPodSearchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNPodSearchManager.m; sourceTree = "<group>"; };
+		CA7BFC231DA443C646CA3AAA /* Pods-algoliasearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algoliasearch.debug.xcconfig"; path = "Target Support Files/Pods-algoliasearch/Pods-algoliasearch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8517AECB2371AB820042A453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5833F51CAD5BA9AB3E57D69E /* Pods_algoliasearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70A5492E8F70D7FFE2E2F2F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C68E3ECDD6CBA607CC720C /* Pods_algoliasearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81081E4B30799460B939BEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA7BFC231DA443C646CA3AAA /* Pods-algoliasearch.debug.xcconfig */,
+				0F4959C9376A4565E8EBB879 /* Pods-algoliasearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8517AEC52371AB820042A453 = {
+			isa = PBXGroup;
+			children = (
+				8517AED02371AB820042A453 /* algoliasearch */,
+				8517AECF2371AB820042A453 /* Products */,
+				81081E4B30799460B939BEF5 /* Pods */,
+				70A5492E8F70D7FFE2E2F2F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8517AECF2371AB820042A453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8517AECE2371AB820042A453 /* algoliasearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8517AED02371AB820042A453 /* algoliasearch */ = {
+			isa = PBXGroup;
+			children = (
+				8517AED12371AB820042A453 /* AppDelegate.swift */,
+				8517AED32371AB820042A453 /* ViewController.swift */,
+				8517AED52371AB820042A453 /* Main.storyboard */,
+				8517AED82371AB840042A453 /* Assets.xcassets */,
+				8517AEDA2371AB840042A453 /* LaunchScreen.storyboard */,
+				8517AEDD2371AB840042A453 /* Info.plist */,
+				8517AEE42371B1BB0042A453 /* DemoViewController.h */,
+				8517AEE52371B1BB0042A453 /* DemoViewController.m */,
+				8517AEE72371B7740042A453 /* HZNPodSearchManager.h */,
+				8517AEE82371B7740042A453 /* HZNPodSearchManager.m */,
+				8517AEE32371B1BB0042A453 /* algoliasearch-Bridging-Header.h */,
+			);
+			path = algoliasearch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8517AECD2371AB820042A453 /* algoliasearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8517AEE02371AB840042A453 /* Build configuration list for PBXNativeTarget "algoliasearch" */;
+			buildPhases = (
+				018A2D9DA79DFF7451E4947D /* [CP] Check Pods Manifest.lock */,
+				8517AECA2371AB820042A453 /* Sources */,
+				8517AECB2371AB820042A453 /* Frameworks */,
+				8517AECC2371AB820042A453 /* Resources */,
+				740F784E4EB390049E7178CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = algoliasearch;
+			productName = algoliasearch;
+			productReference = 8517AECE2371AB820042A453 /* algoliasearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8517AEC62371AB820042A453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = pillar;
+				TargetAttributes = {
+					8517AECD2371AB820042A453 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 8517AEC92371AB820042A453 /* Build configuration list for PBXProject "algoliasearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8517AEC52371AB820042A453;
+			productRefGroup = 8517AECF2371AB820042A453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8517AECD2371AB820042A453 /* algoliasearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8517AECC2371AB820042A453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8517AEDC2371AB840042A453 /* LaunchScreen.storyboard in Resources */,
+				8517AED92371AB840042A453 /* Assets.xcassets in Resources */,
+				8517AED72371AB820042A453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018A2D9DA79DFF7451E4947D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-algoliasearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740F784E4EB390049E7178CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-algoliasearch/Pods-algoliasearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-algoliasearch/Pods-algoliasearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-algoliasearch/Pods-algoliasearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8517AECA2371AB820042A453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8517AEE92371B7740042A453 /* HZNPodSearchManager.m in Sources */,
+				8517AEE62371B1BB0042A453 /* DemoViewController.m in Sources */,
+				8517AED42371AB820042A453 /* ViewController.swift in Sources */,
+				8517AED22371AB820042A453 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8517AED52371AB820042A453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8517AED62371AB820042A453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8517AEDA2371AB840042A453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8517AEDB2371AB840042A453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8517AEDE2371AB840042A453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8517AEDF2371AB840042A453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8517AEE12371AB840042A453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7BFC231DA443C646CA3AAA /* Pods-algoliasearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = algoliasearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pillar.algoliasearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "algoliasearch/algoliasearch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8517AEE22371AB840042A453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4959C9376A4565E8EBB879 /* Pods-algoliasearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = algoliasearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pillar.algoliasearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "algoliasearch/algoliasearch-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8517AEC92371AB820042A453 /* Build configuration list for PBXProject "algoliasearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8517AEDE2371AB840042A453 /* Debug */,
+				8517AEDF2371AB840042A453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8517AEE02371AB840042A453 /* Build configuration list for PBXNativeTarget "algoliasearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8517AEE12371AB840042A453 /* Debug */,
+				8517AEE22371AB840042A453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8517AEC62371AB820042A453 /* Project object */;
+}
